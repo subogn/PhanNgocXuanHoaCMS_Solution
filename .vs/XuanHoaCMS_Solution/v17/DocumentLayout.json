@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\XuanHoaCMS_Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\post\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\post\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB86F05-6FAB-431C-A50A-8169324E74F5}|CMS.Data\\CMS.Data.csproj|d:\\xuanhoacms_solution\\cms.data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB86F05-6FAB-431C-A50A-8169324E74F5}|CMS.Data\\CMS.Data.csproj|solutionrelative:cms.data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDB86F05-6FAB-431C-A50A-8169324E74F5}|CMS.Data\\CMS.Data.csproj|d:\\xuanhoacms_solution\\cms.data\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDB86F05-6FAB-431C-A50A-8169324E74F5}|CMS.Data\\CMS.Data.csproj|solutionrelative:cms.data\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\User\\Edit.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\User\\Edit.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAYwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T04:20:45.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\User\\Create.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\User\\Create.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T04:18:17.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Post\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\Post\\Edit.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Post\\Edit.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\Post\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T04:01:16.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Post\\Create.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\Post\\Create.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Post\\Create.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\Post\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T03:56:06.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAACcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T03:49:30.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T03:35:06.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CMS Backend\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CMS Backend\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T03:32:57.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T03:29:42.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\Category\\Create.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\Category\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T03:20:16.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "CMS Backend\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "CMS Backend\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAwwEkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T03:16:36.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS.Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CMS.Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS.Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CMS.Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T02:33:18.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS.Data\\Entities\\Post.cs",
+              "RelativeDocumentMoniker": "CMS.Data\\Entities\\Post.cs",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS.Data\\Entities\\Post.cs",
+              "RelativeToolTip": "CMS.Data\\Entities\\Post.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T01:20:18.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Post\\Details.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\Post\\Details.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Post\\Details.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\Post\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T01:18:43.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T01:14:47.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CMS Backend\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CMS Backend\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAADwv3MAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T01:11:09.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\Post\\Index.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\Post\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T01:08:39.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "CMS Backend\\Controllers\\PostController.cs",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Controllers\\PostController.cs",
+              "RelativeToolTip": "CMS Backend\\Controllers\\PostController.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAiwKUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T01:06:36.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "CMS Backend\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "CMS Backend\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-28T01:02:31.678Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
