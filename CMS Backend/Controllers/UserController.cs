@@ -2,9 +2,12 @@
 using CMS.Data.Entities;
 using CMS.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace CMS.Backend.Controllers
 {
+    [Authorize(Roles = "Admin")] // Chỉ tài khoản có Role là Admin mới được phép vào
     public class UserController : Controller
     {
         private readonly ApplicationDbContext _context;

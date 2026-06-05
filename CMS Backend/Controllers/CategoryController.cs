@@ -1,6 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using CMS.Data;
 using CMS.Data.Entities;
+using Microsoft.AspNetCore.Authorization; // Cần thêm namespace này
+
+[Authorize]
+
 public class CategoryController : Controller
 {
     private readonly ApplicationDbContext _context;
