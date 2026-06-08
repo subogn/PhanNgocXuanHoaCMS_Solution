@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "D:\\XuanHoaCMS_Solution\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\src\\components\\blogcategorylist.jsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\src\\components\\blogcategorylist.jsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\src\\services\\blogservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\src\\services\\blogservice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\src\\components\\postlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\src\\components\\postlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\src\\components\\postlist.jsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\src\\components\\postlist.jsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\src\\services\\blogservice.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\src\\services\\blogservice.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\src\\components\\productlist.jsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\src\\components\\productlist.jsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\src\\services\\productservice.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\src\\services\\productservice.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\src\\components\\categoryproductlist.jsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\src\\components\\categoryproductlist.jsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\src\\services\\categoryproductservice.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\src\\services\\categoryproductservice.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|d:\\xuanhoacms_solution\\cms.frontend\\src\\api\\axiosclient.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{2D602FE1-76CF-4D21-BE97-4C1FB312C726}|D:\\XuanHoaCMS_Solution\\cms.frontend|solutionrelative:cms.frontend\\src\\api\\axiosclient.js||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|d:\\xuanhoacms_solution\\cms backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F19B2C86-3C34-4264-A08D-FF1E6A070846}|CMS Backend\\CMS Backend.csproj|solutionrelative:cms backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,24 +66,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlogCategoryList.jsx",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\components\\BlogCategoryList.jsx",
+              "RelativeDocumentMoniker": "cms.frontend\\src\\components\\BlogCategoryList.jsx",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\components\\BlogCategoryList.jsx",
+              "RelativeToolTip": "cms.frontend\\src\\components\\BlogCategoryList.jsx",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-08T18:25:55.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostList.jsx",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\components\\PostList.jsx",
+              "RelativeDocumentMoniker": "cms.frontend\\src\\components\\PostList.jsx",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\components\\PostList.jsx",
+              "RelativeToolTip": "cms.frontend\\src\\components\\PostList.jsx",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAYwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-08T18:23:53.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "blogService.js",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\services\\blogService.js",
+              "RelativeDocumentMoniker": "cms.frontend\\src\\services\\blogService.js",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\services\\blogService.js",
+              "RelativeToolTip": "cms.frontend\\src\\services\\blogService.js",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-08T18:23:11.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostList.jsx",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\components\\PostList.jsx",
+              "RelativeDocumentMoniker": "cms.frontend\\src\\components\\PostList.jsx",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\components\\PostList.jsx",
+              "RelativeToolTip": "cms.frontend\\src\\components\\PostList.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-08T18:21:10.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "blogService.js",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\services\\blogService.js",
+              "RelativeDocumentMoniker": "cms.frontend\\src\\services\\blogService.js",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\services\\blogService.js",
+              "RelativeToolTip": "cms.frontend\\src\\services\\blogService.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-08T18:20:26.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductList.jsx",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\components\\ProductList.jsx",
+              "RelativeDocumentMoniker": "cms.frontend\\src\\components\\ProductList.jsx",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\components\\ProductList.jsx",
+              "RelativeToolTip": "cms.frontend\\src\\components\\ProductList.jsx",
+              "ViewState": "AQIAACsAAAAAAAAAAAAowDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-08T18:18:16.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "productService.js",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\services\\productService.js",
+              "RelativeDocumentMoniker": "cms.frontend\\src\\services\\productService.js",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\services\\productService.js",
+              "RelativeToolTip": "cms.frontend\\src\\services\\productService.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-08T18:17:15.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryProductList.jsx",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\components\\CategoryProductList.jsx",
+              "RelativeDocumentMoniker": "cms.frontend\\src\\components\\CategoryProductList.jsx",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\components\\CategoryProductList.jsx",
+              "RelativeToolTip": "cms.frontend\\src\\components\\CategoryProductList.jsx",
+              "ViewState": "AQIAADkAAAAAAAAAAADwv0gAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-08T18:15:15.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "categoryProductService.js",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\services\\categoryProductService.js",
+              "RelativeDocumentMoniker": "cms.frontend\\src\\services\\categoryProductService.js",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\services\\categoryProductService.js",
+              "RelativeToolTip": "cms.frontend\\src\\services\\categoryProductService.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-08T18:13:13.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\public\\index.html",
+              "RelativeDocumentMoniker": "cms.frontend\\public\\index.html",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\public\\index.html",
+              "RelativeToolTip": "cms.frontend\\public\\index.html",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-08T18:11:50.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "axiosClient.js",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\api\\axiosClient.js",
+              "RelativeDocumentMoniker": "cms.frontend\\src\\api\\axiosClient.js",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\api\\axiosClient.js",
+              "RelativeToolTip": "cms.frontend\\src\\api\\axiosClient.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-08T18:09:10.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "App.js",
+              "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\App.js",
+              "RelativeDocumentMoniker": "cms.frontend\\src\\App.js",
+              "ToolTip": "D:\\XuanHoaCMS_Solution\\cms.frontend\\src\\App.js",
+              "RelativeToolTip": "cms.frontend\\src\\App.js",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-08T18:04:35.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Program.cs",
               "RelativeDocumentMoniker": "CMS Backend\\Program.cs",
               "ToolTip": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Program.cs",
               "RelativeToolTip": "CMS Backend\\Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAUwDkAAAAAAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAUwEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-06T05:26:27.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "PostsController.cs",
               "DocumentMoniker": "D:\\XuanHoaCMS_Solution\\CMS Backend\\Controllers\\PostsController.cs",
               "RelativeDocumentMoniker": "CMS Backend\\Controllers\\PostsController.cs",
@@ -43,8 +247,7 @@
               "RelativeToolTip": "CMS Backend\\Controllers\\PostsController.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAcwEwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T04:58:20.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-06T04:58:20.436Z"
             }
           ]
         }
