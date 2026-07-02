@@ -13,6 +13,74 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Blazer nữ màu be.webp",
+      "PackagePath": "staticwebassets\\img\\Blazer nữ màu be.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Blazer nữ màu đen.webp",
+      "PackagePath": "staticwebassets\\img\\Blazer nữ màu đen.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Chân váy bút chì đen.webp",
+      "PackagePath": "staticwebassets\\img\\Chân váy bút chì đen.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Chân váy chữ A.webp",
+      "PackagePath": "staticwebassets\\img\\Chân váy chữ A.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Quần tây nữ ống suông.webp",
+      "PackagePath": "staticwebassets\\img\\Quần tây nữ ống suông.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Quần tây nữ ống đứng.webp",
+      "PackagePath": "staticwebassets\\img\\Quần tây nữ ống đứng.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Set blazer và quần tây.webp",
+      "PackagePath": "staticwebassets\\img\\Set blazer và quần tây.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Set áo sơ mi và chân váy.webp",
+      "PackagePath": "staticwebassets\\img\\Set áo sơ mi và chân váy.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\ao_kieu_co_no.webp",
+      "PackagePath": "staticwebassets\\img\\ao_kieu_co_no.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\ao_kieu_tay_phong.webp",
+      "PackagePath": "staticwebassets\\img\\ao_kieu_tay_phong.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\báo cáo thuc tap thầy ngọc Cty đại phú.doc",
+      "PackagePath": "staticwebassets\\img\\báo cáo thuc tap thầy ngọc Cty đại phú.doc"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Áo sơ mi tay dài xanh pastel.webp",
+      "PackagePath": "staticwebassets\\img\\Áo sơ mi tay dài xanh pastel.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Áo sơ mi trắng cổ V.webp",
+      "PackagePath": "staticwebassets\\img\\Áo sơ mi trắng cổ V.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Đầm công sở dáng A.webp",
+      "PackagePath": "staticwebassets\\img\\Đầm công sở dáng A.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Đầm công sở tay lỡ.webp",
+      "PackagePath": "staticwebassets\\img\\Đầm công sở tay lỡ.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Đầm dạ hội lệch vai.webp",
+      "PackagePath": "staticwebassets\\img\\Đầm dạ hội lệch vai.webp"
+    },
+    {
+      "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\img\\Đầm dạ hội ánh kim.webp",
+      "PackagePath": "staticwebassets\\img\\Đầm dạ hội ánh kim.webp"
+    },
+    {
       "Id": "D:\\XuanHoaCMS_Solution\\CMS Backend\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

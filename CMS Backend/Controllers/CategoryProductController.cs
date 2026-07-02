@@ -3,7 +3,9 @@ using CMS.Data;
 
 namespace CMS.Backend.Controllers
 {
-    public class CategoryProductController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CategoryProductController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
 
@@ -12,11 +14,11 @@ namespace CMS.Backend.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult GetAll()
         {
             var categories = _context.CategoriesProducts.ToList();
-
-            return View(categories);
+            return Ok(categories);
         }
     }
 }

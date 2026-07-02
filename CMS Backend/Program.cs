@@ -12,12 +12,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Đăng ký DbContext vào hệ thống
+// Đăng ký DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Khai báo dịch vụ xác thực Cookie
+// Authentication Cookie
 builder.Services.AddAuthentication(
     CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
@@ -26,24 +26,18 @@ builder.Services.AddAuthentication(
         options.AccessDeniedPath = "/Account/AccessDenied";
     });
 
-// 1. Khai báo chính sách CORS
-builder.Services.AddCors(options => {
-    options.AddPolicy("AllowAll", policy => {
-        // Cho phép mọi nguồn (Origin), mọi phương thức (GET, POST...), mọi tiêu đề (Header)
-        policy.AllowAnyOrigin()
-              .AllowAnyMethod()
-              .AllowAnyHeader();
-    });
-});
-// ---- CẤU HÌNH CORS (THÊM VÀO TRƯỚC builder.Build()) ----
+// Authorization
+builder.Services.AddAuthorization();
+
+// CORS cho ReactJS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // Cho phép ReactJS ở port 3000 gọi tới
-              .AllowAnyHeader()                     // Cho phép mọi loại Header (Content-Type, Authorization...)
-              .AllowAnyMethod()                     // Cho phép mọi phương thức HTTP (GET, POST, PUT, DELETE)
-              .AllowCredentials();                  // Hỗ trợ truyền Cookie/Session nếu cần sau này
+        policy.WithOrigins("http://localhost:3000")
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials();
     });
 });
 
@@ -64,23 +58,18 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-app.UseStaticFiles();
 
-// Kích hoạt CORS đúng vị trí này
+// CORS
 app.UseCors("AllowReactApp");
 
-app.UseAuthorization();
-
-app.UseCors("AllowAll");
-
-
+// Authentication phải đứng trước Authorization
 app.UseAuthentication();
 app.UseAuthorization();
 
-// API Controller
+// API Controllers
 app.MapControllers();
 
-// MVC Controller
+// MVC Controllers
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -21,11 +21,19 @@ namespace CMS.Data.Entities
 
         public string? ImageUrl { get; set; }
 
-        // Khóa ngoại nối tới CategoryProduct
+        // ===== THÊM =====
+        public bool IsFeatured { get; set; }
+
+        public bool IsNew { get; set; }
+
+        public bool IsBestSeller { get; set; }
+
+        public int DiscountPercent { get; set; }
+        // ================
+
         public int CategoryProductId { get; set; }
 
         [ForeignKey("CategoryProductId")]
         public virtual CategoryProduct? CategoryProduct { get; set; }
     }
 }
-

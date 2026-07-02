@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Authorization;
 
-
 namespace CMS.Backend.Controllers
 {
     [Authorize]
@@ -19,151 +18,179 @@ namespace CMS.Backend.Controllers
             _context = context;
         }
 
-        // Hàm Index: Hiển thị danh sách bài viết mẫu
-        public IActionResult Index(int?id)
+        // Danh sách bài viết
+        public IActionResult Index(int? id)
         {
-            //1.Kiểm tra nếu không có id truyền vào thì trả về lỗi hoặc toàn bộ bài viết
-            if (id == null)
-                return BadRequest("Vui lòng cung cấp mã danh mục.");
-
-            //2.. Sử dụng LINQ với tham số 'id' linh hoạt
+            // Lấy tất cả bài viết
             var posts = _context.Posts
-            .Where(p => p.CategoryId == id)
-            .OrderByDescending(p => p.CreatedDate)
-            .Include(p => p.Category)
-            .ToList();
+                .Include(p => p.Category)
+                .OrderByDescending(p => p.CreatedDate)
+                .ToList();
 
-            //3.Truyền dữ liệu ra View
+            // Nếu có chọn danh mục thì lọc
+            if (id.HasValue)
+            {
+                posts = posts
+                    .Where(p => p.CategoryId == id.Value)
+                    .ToList();
+            }
+
             return View(posts);
         }
-
-        // Hàm Details: Hiển thị chi tiết một bài viết
-        // GET: Post/Details/5
+        // Chi tiết bài viết
         public IActionResult Details(int id)
         {
-            // 1. Truy vấn bài viết theo ID
-            // Sử dụng .Include(p => p.Category) để lấy kèm thông tin Danh mục (Join bảng)
             var post = _context.Posts
                 .Include(p => p.Category)
                 .FirstOrDefault(p => p.Id == id);
 
-            // 2. Kiểm tra nếu không tìm thấy bài viết (tránh lỗi màn hình trắng)
             if (post == null)
             {
-                return NotFound(); // Trả về trang lỗi 404
+                return NotFound();
             }
 
-            // 3. Truyền dữ liệu sang View
             return View(post);
         }
 
-        // 1. Hàm hiển thị form tạo mới bài viết (GET)
+        // GET: Hiển thị form tạo mới
         [HttpGet]
         public IActionResult Create()
         {
-            // Chúng ta lấy danh sách Category để đổ vào ViewBag
-            ViewBag.CategoryList = new SelectList(_context.Categories, "Id", "Name");
+            ViewBag.CategoryList =
+                new SelectList(
+                    _context.Categories,
+                    "Id",
+                    "Name"
+                );
+
             return View();
         }
 
-
-
+        // POST: Tạo bài viết
         [HttpPost]
         public IActionResult Create(Post model, IFormFile uploadImage)
         {
             if (uploadImage != null && uploadImage.Length > 0)
             {
-                // 1. Định nghĩa đường dẫn lưu file: wwwroot/uploads
-                string folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
+                string folder = Path.Combine(
+                    Directory.GetCurrentDirectory(),
+                    "wwwroot",
+                    "uploads"
+                );
 
-                // Tạo thư mục nếu chưa tồn tại
-                if (!Directory.Exists(folder)) Directory.CreateDirectory(folder);
+                if (!Directory.Exists(folder))
+                {
+                    Directory.CreateDirectory(folder);
+                }
 
-                // 2. Tạo tên file duy nhất để không bị đè dữ liệu
-                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(uploadImage.FileName);
-                string filePath = Path.Combine(folder, fileName);
+                string fileName =
+                    Guid.NewGuid().ToString()
+                    + Path.GetExtension(uploadImage.FileName);
 
-                // 3. Chép file vào thư mục
-                using (var stream = new FileStream(filePath, FileMode.Create))
+                string filePath =
+                    Path.Combine(folder, fileName);
+
+                using (var stream =
+                    new FileStream(filePath, FileMode.Create))
                 {
                     uploadImage.CopyTo(stream);
                 }
 
-                // 4. Lưu đường dẫn vào CSDL để sau này hiển thị
                 model.ImageUrl = "/uploads/" + fileName;
             }
 
+            model.CreatedDate = DateTime.Now;
+
             _context.Posts.Add(model);
             _context.SaveChanges();
+
             return RedirectToAction("Index");
         }
 
+        // Xóa bài viết
         public IActionResult Delete(int id)
         {
-            // 1. Tìm bài viết theo Id
             var post = _context.Posts.Find(id);
 
             if (post != null)
             {
-                // 2. Xóa khỏi bộ nhớ tạm
                 _context.Posts.Remove(post);
-
-                // 3. Cập nhật xuống SQL Server
                 _context.SaveChanges();
             }
+
             return RedirectToAction("Index");
         }
 
-        // GET: Hiển thị form kèm dữ liệu cũ
+        // GET: Form sửa
         [HttpGet]
         public IActionResult Edit(int id)
         {
             var post = _context.Posts.Find(id);
-            if (post == null) return NotFound();
 
-            // Chuẩn bị lại danh sách danh mục để người dùng có thể đổi chuyên mục
-            ViewBag.CategoryList = new SelectList(_context.Categories, "Id", "Name", post.CategoryId);
+            if (post == null)
+            {
+                return NotFound();
+            }
+
+            ViewBag.CategoryList =
+                new SelectList(
+                    _context.Categories,
+                    "Id",
+                    "Name",
+                    post.CategoryId
+                );
+
             return View(post);
         }
 
-        // POST: Thực hiện cập nhật
+        // POST: Cập nhật
         [HttpPost]
         public IActionResult Edit(Post model, IFormFile uploadImage)
         {
-            // Bước 1: Kiểm tra xem người dùng có chọn file ảnh mới không
             if (uploadImage != null && uploadImage.Length > 0)
             {
-                // Thực hiện quy trình upload giống như trang Create
-                string folder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
-                if (!Directory.Exists(folder)) Directory.CreateDirectory(folder);
+                string folder = Path.Combine(
+                    Directory.GetCurrentDirectory(),
+                    "wwwroot",
+                    "uploads"
+                );
 
-                string fileName = Guid.NewGuid().ToString() + Path.GetExtension(uploadImage.FileName);
-                string filePath = Path.Combine(folder, fileName);
+                if (!Directory.Exists(folder))
+                {
+                    Directory.CreateDirectory(folder);
+                }
 
-                using (var stream = new FileStream(filePath, FileMode.Create))
+                string fileName =
+                    Guid.NewGuid().ToString()
+                    + Path.GetExtension(uploadImage.FileName);
+
+                string filePath =
+                    Path.Combine(folder, fileName);
+
+                using (var stream =
+                    new FileStream(filePath, FileMode.Create))
                 {
                     uploadImage.CopyTo(stream);
                 }
 
-                // Cập nhật đường dẫn ảnh mới vào model
                 model.ImageUrl = "/uploads/" + fileName;
             }
             else
             {
-                // Bước quan trọng: Nếu không upload ảnh mới, chúng ta phải giữ lại ảnh cũ
-                // Chúng ta cần lấy lại giá trị ImageUrl từ Database để tránh bị ghi đè thành rỗng
-                var oldPost = _context.Posts.AsNoTracking().FirstOrDefault(p => p.Id == model.Id);
-                if (oldPost != null && string.IsNullOrEmpty(model.ImageUrl))
+                var oldPost = _context.Posts
+                    .AsNoTracking()
+                    .FirstOrDefault(p => p.Id == model.Id);
+
+                if (oldPost != null)
                 {
                     model.ImageUrl = oldPost.ImageUrl;
                 }
             }
+
             _context.Posts.Update(model);
             _context.SaveChanges();
+
             return RedirectToAction("Index");
         }
-
-
-
     }
 }

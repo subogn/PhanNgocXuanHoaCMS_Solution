@@ -1,0 +1,100 @@
+﻿@model CMS.Data.Entities.Product
+
+@{
+    Layout = "_LayoutAdmin";
+    ViewData["Title"] = "Thêm sản phẩm";
+}
+
+<h2 class="mb-4">Thêm sản phẩm</h2>
+
+<form asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label class="form-label">Tên sản phẩm</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Mô tả</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Giá</label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Số lượng</label>
+        <input asp-for="StockQuantity" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ảnh URL</label>
+        <input asp-for="ImageUrl" class="form-control" />
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-check">
+                <input asp-for="IsFeatured" class="form-check-input" />
+                <label asp-for="IsFeatured" class="form-check-label">
+                    Sản phẩm nổi bật
+                </label>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="form-check">
+                <input asp-for="IsNew" class="form-check-input" />
+                <label asp-for="IsNew" class="form-check-label">
+                    Sản phẩm mới
+                </label>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="form-check">
+                <input asp-for="IsBestSeller" class="form-check-input" />
+                <label asp-for="IsBestSeller" class="form-check-label">
+                    Bán chạy
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-3">
+        <label asp-for="DiscountPercent" class="form-label">
+            Giảm giá (%)
+        </label>
+        <input asp-for="DiscountPercent" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Danh mục sản phẩm</label>
+
+        <select asp-for="CategoryProductId"
+                asp-items="ViewBag.CategoryProductId"
+                class="form-select">
+
+            <option value="">-- Chọn danh mục --</option>
+
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Thêm sản phẩm
+    </button>
+
+    <a asp-action="Index" class="btn btn-secondary">
+        Quay lại
+    </a>
+
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

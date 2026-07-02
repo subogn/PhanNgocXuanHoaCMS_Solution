@@ -1,0 +1,29 @@
+﻿@model IEnumerable<CMS.Data.Entities.Order>
+@{
+    Layout = "_LayoutAdmin";
+}
+<h2 class="text-primary">DANH SÁCH ĐƠN HÀNG (DỮ LIỆU MẪU)</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ngày tạo đơn</th>
+            <th>CustomerId</th>
+            <th>Trạng thái</th>
+            <th>Ghi chú</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.OrderDate</td>
+                <td>@item.CustomerId</td>
+                <td>@item.Status</td>
+                <td>@item.Notes</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

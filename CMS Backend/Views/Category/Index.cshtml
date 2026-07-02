@@ -1,12 +1,10 @@
 ﻿@model IEnumerable<CMS.Data.Entities.Category>
-@{
-    Layout = "_LayoutAdmin";
-}
-
 <a asp-action="Create" class="btn btn-success">
     <i class="bi bi-plus-circle"></i> Thêm danh mục mới
 </a>
-
+@{
+    Layout = "_LayoutAdmin";
+}
 <h2 class="text-primary">DANH SÁCH DANH MỤC (DỮ LIỆU MẪU)</h2>
 <table class="table table-bordered">
     <thead>
@@ -32,8 +30,8 @@
                        class="btn btn-sm btn-outline-danger"
                        onclick="return confirm('Bạn có chắc chắn muốn xóa danh mục này?')">Xóa</a>
                 </td>
-
             </tr>
         }
     </tbody>
 </table>
+
